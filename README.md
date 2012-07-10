@@ -23,16 +23,14 @@ Node.js directly:
     > node .
     
 or
+
     > git clone https://github.com/kinvey/kinvey-service-link.git
     > cd kinvey-service-link
     > npm install
     > npm start
     
-    
-
 Configuring the app to talk to your servers is a matter of updating
-the file
-https://github.com/kinvey/kinvey-service-link/blob/master/lib/service_link.js.
+the file https://github.com/kinvey/kinvey-service-link/blob/master/lib/service_link.js.
 
 Each of the four HTTP verbs has a single function that's invoked on
 the request.  Add the code you need to interface with your
@@ -53,7 +51,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
+   http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
