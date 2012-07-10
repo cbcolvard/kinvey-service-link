@@ -16,7 +16,7 @@
     ],
     "scripts": {
         "start": "node .",
-        "test": "vows --spec --isolate"
+        "test": "mocha"
     },
     "main": "./index.js",
     "repository": {
