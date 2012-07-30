@@ -16,7 +16,7 @@
     ],
     "scripts": {
         "start": "node .",
-        "test": "mocha"
+        "test": "./node_modules/mocha/bin/mocha test/tests.js"
     },
     "main": "./index.js",
     "repository": {
