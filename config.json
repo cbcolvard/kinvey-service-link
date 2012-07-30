@@ -3,7 +3,8 @@
         "This file is where you configure the server options"
     ],
 
-    "debug": false,
+    "debug": true,
+    "debugFullRequest": false,
 
     "server": {
         "port": 8080,
