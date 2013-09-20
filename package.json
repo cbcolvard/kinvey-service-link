@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "author": "Kinvey <support@kinvey.com>",
     "description": "A simple REST server example to link your private cloud with Kinvey",
-    "engines": {"node": "0.6.x"},
+    "engines": {"node": "0.8.x", "npm" : "1.1.x"},
     "contributors": [
         {
             "name": "Morgan Bickle",
