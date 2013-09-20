@@ -1,0 +1,42 @@
+{
+    "name": "kinvey-service-link",
+    "version": "0.1.0",
+    "author": "Kinvey <support@kinvey.com>",
+    "description": "A simple REST server example to link your private cloud with Kinvey",
+    "engines": {"node": "0.6.x"},
+    "contributors": [
+        {
+            "name": "Morgan Bickle",
+            "email": "morgan@kinvey.com"
+        },
+        {
+            "name": "Brian Wilson",
+            "email": "brian@kinvey.com"
+        }
+    ],
+    "scripts": {
+        "start": "node .",
+        "test": "./node_modules/mocha/bin/mocha test/tests.js"
+    },
+    "main": "./index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kinvey/kinvey-service-link.git"
+    },
+    "keywords": [
+        "http",
+        "server",
+        "Kinvey",
+        "REST",
+        "ServiceLink"
+    ],
+    "dependencies" : {
+        "restify":"1.4.x"
+    },
+    "noAnalyze": true,
+    "devDependencies": {
+        "mocha": "1.0.x",
+        "should": "0.5.x"
+    },
+    "license": "Apache 2.0"
+}

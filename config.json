@@ -1,0 +1,15 @@
+{
+    "_comments": [
+        "This file is where you configure the server options"
+    ],
+
+    "debug": true,
+    "debugFullRequest": false,
+
+    "server": {
+        "port": 8080,
+        "address": "localhost"
+    },
+
+    "key": "kinveyTest"
+}
