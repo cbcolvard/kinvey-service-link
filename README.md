@@ -42,10 +42,12 @@ If you don't support a particular HTTP verb, just call
 return next(new restify.NotAuthorizedError("This method is not supported by this host"));
 ```
 
-The current sample app is just an echo server.
+The current sample app is an echo server.
 
+#### LICENSE
 
-kinvey-service-link is Copyright 2012 Kinvey, Inc
+```
+Copyright 2013 Kinvey, Inc
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -58,7 +60,7 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
+```
 
   
   
